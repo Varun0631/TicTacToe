@@ -41,6 +41,8 @@ function resetGame() {
 	
 
     // TODO reset gameOver and # of empty cells
+     empty = 9; // empty all the cells
+    gameOver = false; // it resets gameOver
     
 }
 
