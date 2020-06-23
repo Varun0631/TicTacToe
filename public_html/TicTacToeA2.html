@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <!-- main content -->
+        <link rel="stylesheet" href="css/TicTacToeA2.css">
+    </head>
+    <body>
+
+        <h1>Tic Tac Toe!</h1>
+        <!-- game board -->
+        <table>
+            <tr>
+                <td id = "t0">0</td>
+                <td id = "t1">1</td>
+                <td id = "t2">2</td>
+            </tr>
+            <tr>
+                <td id = "t3">3</td>
+                <td id = "t4">4</td>
+                <td id = "t5">5</td>
+            </tr>
+            <tr>
+                <td id = "t6">6</td>
+                <td id = "t7">7</td>
+                <td id = "t8">8</td>
+            </tr>
+        </table>
+
+        <!-- play information and controls -->
+        <p>Player <span id="player">X</span> Go!
+            <button id="reset" onclick = "resetGame()">Reset Game</button>
+        </p>
+
+        <!-- footer -->
+        <footer>Varun Kanda @ Sheridan SYST10199 Web Programming
+        </footer>
+
+        <!-- hidden elements used for displaying results -->
+        <div id="message">
+            <p>GAME OVER!</p>
+            <h3 id="winner"></h3>
+            <p>&mdash;click anywhere in the box to dismiss this message&mdash;</p>
+        </div>
+        <div id="overlay"></div>
+    </body>
+    <script type = "text/javascript" src = "js/TicTacToeA2.js"></script>
+</html>
